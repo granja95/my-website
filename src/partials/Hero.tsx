@@ -10,45 +10,41 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Tiago Granja</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I am a cybersecurity enthusiast, that mainly loves the offensive side
+          of hacking. I have an degree in cybersecurity and I am currently doing
+          a masters in the same area. Nowadays I am focusing in bug bounties,
+          but I also plan to continue my journey in the ctf world. My main goal
+          with this website is to share some cools resources, projects and
+          write-ups about some bug and machines.
         </>
       }
+      /* ,{' '}
+      <a className="text-cyan-400 hover:underline" href="/">
+        consectetur
+      </a>{' '} */
+
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="w-112 h-80"
+          src="/assets/images/tiago.png"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/flikwow">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/tiago-granja-a2ba73196/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
