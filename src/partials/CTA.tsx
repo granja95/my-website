@@ -12,7 +12,7 @@ const CTA = () => (
           Subscribe to my <GradientText>Newsletters</GradientText>
         </>
       }
-      description=""
+      description="Subscribe to receive the newest posts."
     />
   </Section>
 );
