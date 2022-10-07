@@ -18,9 +18,9 @@ const ProjectList = () => (
       <Project
         name="My Website"
         description="Created and published this website."
-        link="/"
+        link="/posts/my_website"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/project-fire.png',
           alt: 'Project Web Design',
         }}
         category={
