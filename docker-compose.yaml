@@ -1,0 +1,25 @@
+version: "3"
+services:
+ webserver:
+  build: .
+  container_name: web
+  ports:
+  - "3000:3000"  
+  networks:
+  - my-proxy-net
+ nginx:
+  depends_on:
+  -webserver
+  restart: always
+  container_name: nginx
+  build: nginx
+  ports:
+  - "80:80"
+  - "443:443"
+  
+networks:
+ proxynet
+  name: custom_network
+ my-proxy-net:
+  external:
+   name: custom_network
