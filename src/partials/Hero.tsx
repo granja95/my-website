@@ -16,11 +16,11 @@ const Hero = () => (
       description={
         <>
           I am a cybersecurity enthusiast, that mainly loves the offensive side
-          of hacking. I have an degree in cybersecurity and I am currently doing
-          a masters in the same area. Nowadays I am focusing in bug bounties,
-          but I also plan to continue my journey in the ctf world. My main goal
-          with this website is to share some cools resources, projects and
-          write-ups about some bug and machines.
+          of hacking. I have a degree in cybersecurity and am currently doing a
+          masters in the same area. I am focusing on bug bounties, but I also
+          plan to continue my journey in the CTF world. My main goal with this
+          website is to share some cool resources, projects, and write-ups about
+          some bugs and machines.
         </>
       }
       /* ,{' '}
